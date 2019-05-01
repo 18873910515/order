@@ -13,7 +13,7 @@
             <a class="navbar-brand">
                 <small>
                     <i class="icon-leaf"></i>
-                    wode 家常菜
+                    wo家常菜
                 </small>
             </a><!-- /.brand -->
         </div><!-- /.navbar-header -->
