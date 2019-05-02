@@ -32,7 +32,7 @@
 				<td><input class = "none" type="text" name="mname" value = "${menu.mname}"/></td>
 				<td>
 					<c:set var="ccid" scope="request" value="${menu.cid}" /> <!--获取当前cid-->
-					<select class = "none" name="cid">
+					<select class = "none" name="new_cid">
 						<%
 							List<Category> categories = categoryManager.getAllCategories();
 							int ccid = ((Integer)request.getAttribute("ccid")).intValue();
